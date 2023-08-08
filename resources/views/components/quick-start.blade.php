@@ -56,6 +56,23 @@
                                 class="h-2.5 w-2.5 rounded-full bg-emerald-500"
                             ></div>
                         </div>
+                        <pre class="mb-4"><x-torchlight-code language='shell'>
+                            composer require calebporzio/sushi
+                        </x-torchlight-code></pre>
+
+                        <div
+                            class="flex h-12 items-center gap-2 rounded-tl-lg rounded-tr-lg bg-[#282b36] px-5 pt-0.5"
+                        >
+                            <div
+                                class="h-2.5 w-2.5 rounded-full bg-rose-500"
+                            ></div>
+                            <div
+                                class="h-2.5 w-2.5 rounded-full bg-yellow-500"
+                            ></div>
+                            <div
+                                class="h-2.5 w-2.5 rounded-full bg-emerald-500"
+                            ></div>
+                        </div>
                         <div
                             class="sm:whitespace-pre rounded-bl-lg rounded-br-lg bg-[#1b1e28] p-5 font-fira-code font-medium text-[#a6accd] selection:bg-slate-500/30"
                         >composer <span class="text-teal-400">require</span> <span class="text-white/80">calebporzio</span>/sushi</div>
@@ -91,6 +108,26 @@
 
                     {{-- Code --}}
                     <div class="max-w-lg py-7 pl-1">
+                        <div
+                            class="flex h-12 items-center gap-2 rounded-tl-lg rounded-tr-lg bg-[#282b36] px-5 pt-0.5"
+                        >
+                            <div
+                                class="h-2.5 w-2.5 rounded-full bg-rose-500"
+                            ></div>
+                            <div
+                                class="h-2.5 w-2.5 rounded-full bg-yellow-500"
+                            ></div>
+                            <div
+                                class="h-2.5 w-2.5 rounded-full bg-emerald-500"
+                            ></div>
+                        </div>
+                        <pre class="mb-4"><x-torchlight-code language="php">
+                            class State extends Model
+                            {
+                                use \Sushi\Sushi;// [tl! focus]
+                            }
+                        </x-torchlight-code></pre>
+
                         <div
                             class="flex h-12 items-center gap-2 rounded-tl-lg rounded-tr-lg bg-[#282b36] px-5 pt-0.5"
                         >
